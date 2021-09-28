@@ -1,0 +1,26 @@
+.modal-position {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+    background: #2d343c;
+    border-radius: 10px;
+    height: auto;
+    color: #d4c17f;
+    padding: 15px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.modal-footer button {
+    margin-top: 20px;
+    margin-right: 0;
+}

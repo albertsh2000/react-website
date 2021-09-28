@@ -1,0 +1,133 @@
+.registration-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #d4c17f;
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 180px;
+}
+
+.registration-text {
+    margin-top: 50px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.registration {
+    display: flex;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.left-side {
+    margin-right: 35px;
+}
+.left-side p {
+    max-width: 535px;
+    color: #fff;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-btns button {
+    background: #4e565fff;
+    width: 255px;
+    height: 50px;
+    font-size: 14px;
+    color: #83868aff;
+    margin-right: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+.top-btns button:hover {
+    background-color: #d4c17f;
+    color: #4e565fff;
+}
+
+.top-btns button:last-child {
+    margin-right: 0;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+}
+
+.bottom p {
+    font-size: 13px;
+    margin-top: 46px;
+    color: #fff;
+    margin-right: 30px;
+    max-width: 255px;
+}
+
+.bottom button {
+    margin-top: 46px;
+    width: 255px;
+    height: 50px;
+    background: #d4c17f;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    color: #fff;
+    transition: 0.2s ease-in;
+}
+
+.bottom button:hover {
+    background-color: #4e565fff;
+    color: #d4c17f;
+}
+
+@media (max-width: 1100px) {
+    .registration-title {
+        text-align: center;
+    }
+    .registration {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left-side {
+        margin-right: 0;
+    }
+    .left-side p {
+        margin-top: 30px;
+        text-align: center;
+    }
+    .right-side {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    .registration-title {
+        margin-top: 80px;
+    }
+    .top-btns {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-btns button {
+        margin-top: 20px;
+        margin-right: 0;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom p {
+        text-align: center;
+        margin-right: 0;
+    }
+}
